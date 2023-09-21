@@ -1,0 +1,358 @@
+SAP:- 
+--------
+Module 1:-
+----------
+SAP- It is a brand  and big company which produces software for managing the companies.
+Software to manage comapnies is called ERP -( Enterprise Resource Planning)
+ERP system mainly supports 
+1. Finance
+2. Sales and Distribution
+3. Human Resources
+
+Others:
+4. Production planning
+5. Material Management
+6. Controlling 
+
+
+SAP - Systems Applications and Products in data processing
+SAP ERP is the enterprise software to manage business operations and customer relations
+Different other products of SAP are as follows:
+SAP ERP ---> Mostly used one
+SAP CRM
+SAP PLM
+SAP BI
+
+
+
+ERP System:-
+-------------
+According to the basic definition ERP is the system manages the entire company. It is the one system for all. 
+An Enterprise Resource Planning (ERP) system is a software solution that integrates various business processes and functions within an organization into a single unified system.
+It enables efficient data sharing, collaboration, and automation across different departments and facilitates better decision-making. Here's an explanation of each of the listed
+modules within an ERP system:
+
+Below are the different modules present under ERP:-
+----------------------------------------------------
+Finance:
+The finance module in an ERP system handles all financial aspects of the organization. It includes functionalities such as general ledger, accounts payable and receivable, financial
+reporting, budgeting, taxation, asset management, cash flow management, and financial analysis. This module helps businesses track their financial transactions, manage their funds,
+and generate accurate financial statements.
+
+Sales and Distribution:
+The sales and distribution module manages the entire sales process, from customer inquiries to order fulfillment. It includes functionalities like sales order processing, pricing, 
+customer relationship management (CRM), order tracking, inventory management, shipping, and invoicing. This module streamlines the sales process, enhances customer satisfaction, and
+ensures efficient order processing and delivery.
+
+Human Resources:
+The human resources (HR) module focuses on managing employee-related processes. It covers areas such as employee information, payroll, benefits administration, recruitment,
+performance management, training, time and attendance tracking, and compliance with labor laws. The HR module helps organizations effectively manage their workforce and ensure 
+employee satisfaction and compliance.
+
+Production Planning:
+The production planning module helps organizations manage their manufacturing processes. It involves functionalities like demand forecasting, production scheduling, capacity planning,
+resource allocation, quality control, and tracking work-in-progress. This module optimizes production operations, minimizes bottlenecks, and ensures efficient utilization of 
+resources.
+
+Material Management:
+The material management module, also known as inventory management, handles the procurement and storage of materials and goods. It includes features like inventory control, 
+procurement, vendor management, material tracking, stock valuation, and reorder point calculation. This module ensures that the right materials are available when needed, minimizing
+excess inventory and reducing carrying costs.
+
+Controlling:
+The controlling module, often referred to as cost accounting, focuses on managing and controlling costs within the organization. It encompasses functionalities such as cost 
+allocation, cost center accounting, profit center accounting, budgeting, variance analysis, and performance measurement. This module provides insights into the financial performance
+of different departments or projects, allowing management to make informed decisions to optimize costs and improve profitability.
+
+These modules collectively make up an ERP system, enabling organizations to centralize their data, automate processes, improve collaboration, and gain a holistic view of their 
+operations, which ultimately leads to increased efficiency and competitiveness.
+
+
+Key Features and Benefits of ERP:-
+---------------------------------
+Features:
+---------
+Real- time:- You can have a complex view of all your business in real-time. (Any time you want)
+Common Database: - Everyone works on same database which increases productivity and less prone in making errors
+Manage Entire company :- You dont need independent software, you have all in one.
+Enterprise Wide Integration:- Business process are integrated end to end across departments and business units
+Eg:- For example a new order automatically intiates the credit check, queries product availbabilutu and updates their distribution schdeule. So once order is shipped the invoice is 
+sent.
+Consistent Look and feel:-
+The user interface so what you on screen , is similar to each module.If someones changes the department and stops using one module, he will easily find himself in another.
+
+Benefits:
+---------
+Higher productivity :- Your team work is more efficient beacause they have all the information they need in one system. (They improve inventory management, increase stock turn and 
+deliver more fatser)
+Less Complexity :- You have one system.
+Better Insights :- Now you can report and analyze any way you want to make more informed decisions and gain business agility.
+High security :- Need to worry on Data security of one system.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module -2:-
+-----------
+Evolution of SAP System:
+----------------------------
+1972: R/1 (Realtime 1 tier Architecture)
+->Supports only Accounting
+->Ran on MS DOS
+-> Served 40 customers
+
+1979: R/2 (Realtime 2 tier Architecture)
+->Based on Mainframe
+->Included most of Enterprise functions like Supply Chain, Manufacturing processes, Accounting and HR. (Lot of modules)
+->Supports Multiple languages and currencies
+-> Served 2200 customers
+
+1992: R/3 (Realtime 3 tier Architecture) -> with defined separate data-base layer, application layer and presentation layer
+-> SAP Presentation Layer is shown as  SAP GUI where SAP sever gets connected to this.
+-> SAP R/3 was built on the client-server concept, having a uniform graphical interface dedicated to use of relational databases and supports servers from various manufacturers.
+-> Supports all Business Functionalities
+-> Served 15000 customers
+
+2004: SAP ERP (ECC) -> Enterprise Central Component
+SAP ERP ECC, also known simply as SAP ECC, was the core version of SAP's ERP software suite.
+-> 3-layer Architecture
+-> Lot of Modules
+-> New Paltform (Net-Weaver)
+-> Served 24000 customers
+
+2015: SAP S/4 HANA
+-> 3-layer Architecture
+-> lot of modules
+-> SAP HANA is a new SAP ERP platform that runs on the SAP HANA database. This database use in-memory database technology , which makes the system super fast.
+-> S/4 HANA has the ability to log into the system directly from the web browser.
+-> The name of this welcoming user interface is FIORI. 
+-> So in this case we have user interface of standard SAP GUI and user interface of FIORI interface in web browser. The FIORI interface can still be used only for some
+parts of the system and still most of the things on the system are done using the SAP GUI.
+
+SAP ECC went through several enhancement packs and versions over the years, but its core architecture and functionalities remained largely consistent. However, as technology and 
+business needs evolved, SAP introduced its successor, SAP S/4HANA (SAP Business Suite 4 SAP HANA), which is built on the SAP HANA in-memory database platform. SAP S/4HANA offers 
+advanced features, improved performance, and a more streamlined architecture compared to SAP ECC
+
+Note:-
+-----
+SAP has been encouraging its customers to transition from SAP ECC to SAP S/4HANA, as SAP ECC's mainstream maintenance was planned to end in 2027.
+
+Architecture of SAP:
+----------------------
+-> Client server model is used for SAP system.So basically you have a special program on local computer to connect to a SAP system, which is called SAP GUI. Means here you will get
+connected to SAP sever by providing the login credentials.
+-> So in the latest version of S/4 HANA  there has the flexibility to log into the system directly from the web browser.The name of this welcoming User Interface is called FIORI browser.
+
+-> SAP  R/2- 2tier (2 layer) Architecture the application and Database layer are present at SAP server side and  Presentation layer is the client (Front end) i.e; SAP GUI.
+-> SAP  R/3- 2tier (3 layer) Architecture the application and Database layer are seperated. Presentation layer -> Application layer -> Database layer (This way it is connected).Here
+the presentation layer is the client (Front end) i.e; SAP GUI and Web page FIORI
+
+SAP Menu , Transactions:
+------------------------
+-> Basically the SAP menu screen consists of differet options. Here we will tree like structure where it consists different modules as individual folders and it subfolders and finally
+a business task. A business task is an application or program that we execute from SAP menu. They have a characteristic cube symbol.
+-> In a SAP langauge a business task or program is called a transaction. Each transaction has its own character identifier. We have transaction code or T-code before than that name. 
+Eg: MM03 - Display current
+
+SAP Modules:
+----------------
+-> Basically the main modules of SAP are below three. Under this there are some sub folders and sub modules.
+1. Logistics
+MM - Material Management
+SD - Sales and Distribution
+
+2. Accounting
+FI - Financial Accounting
+CO - Controlling
+
+3. Human Resources
+
+Favourites:
+----------
+-> Favourites are basically created to make the work easier. You can create folders, subfolders and add transactions under them (Basically which are used on daily purpose). 
+This all will be done under the Favourites section.
+
+
+Master and Transaction Data:-
+---------------------------
+->It can be said that data in SAP are usually objects such as material,customer, vendor and we also have documents such as quotataion, sales order and inovoice.
+-> This objects are divided into 2 categories like Master and Transaction Data.
+
+Master Data: 
+------------
+-> Represents the things, people and  places the organization deals with
+eg:- Customer, Vendor, Material and Employee
+-> Can consider master data as nouns 
+-> Master data is created and changed less  frequently.
+Transaction Data: 
+-----------------
+-> On the other hand transaction data represents and event which the master data participates. Here event means something action happened on the system.Each event is SAP is registerd
+usually in the form of a document.
+eg:- Quotation, Sales order, Invoice, Goods issue and Goods receip etc)
+A Company has sold an item ( We have sales order document for this)
+A Customer has paid (Invoice or Billing document)
+An item has released from stock  (We have one of material movement document like Goods Issue or a Goods Receipt)
+Item has been Shipped ( We have shipment document)
+-> Transaction data as Verbs
+-> Transaction data are related to day-to-day activities.So they change several times.
+
+Organizational Structure:
+-------------------------
+-> An Enterprise structure is the structure that represents an enterprise in the SAP system.
+-> In SAP combination of sales, organization, distribution channel and division is  called  as Sales area.
+-> For customizing and creating we go to /nSPRO in our SAP menu. Under this we go SAP Reference -> Enterprise structure. Under this we have 2 main things to concentrate ie; Definition
+and Assignment.
+-> SO SAP Customizing we use SPRO. Bascially customization is done by Experts mostly the functional consultants for the respective modules.So this is not that simple they need to do 
+it carefully since it is complex.
+SAP Configuration:
+------------------
+-> So basically the configuration part is required when there is requirement for new categories that need to be created. This configuration or adding up all the new things will be
+taken care by experts.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Module 3:-
+----------
+Transactions connected to Material:
+-----------------------------------
+-> MM01 - Create Material 
+-> MM02 - Change Material
+-> MM03 - Display Material -> For this basically the system prompts the lately used material. Amd in display mode we cant change/modify anything
+
+-> If you are creating a material make sure that name i already.
+
+
+Note:-
+-----
+/nMM01 -> The transaction for creation of material opens in same window
+/oMM01 -> The transaction for creation of material opens in different window
+
+Transactions connected to Customer:
+-----------------------------------
+-> XD01 - Customer Create
+-> XD02 - Customer Change
+-> XD03 - Customer Display
+
+Transactions connected to Inquiry:
+----------------------------------
+-> VA11 - Inquiry Create
+-> VA12 - Inquiry Change
+-> VA13 - Inquiry Display
+
+Transactions connected to Sales:
+--------------------------------
+-> VA01 - Sales Order Create
+-> VA02 - Sales Order Change
+-> VA03 - Sales Order Display
+
+Note:-
+-----
+-> Basically material object or material master data, material document is very big object in SAP with lots of fields. So its not possible to show all that information into views.
+-> We use to find a helpful description of the field you are in at the moment in SAP UI using F1 Key.
+
+Material Price:
+---------------
+-> Price to documents is taken in SAP from so called condition records. This module or this part of configuration of the system is called material pricing.
+
+Transactions connected to Material Pricing:
+-------------------------------------------
+Select using condition type
+-> VK11 - Create
+-> VK12 - Change
+-> VK13 - Display
+-> VK12 - Create with Template
+
+Material Movements:   Warehouse/ Stock/ Storage Location
+---------------------------------------------------------
+-> Goods receipt (When goods are coming to warehouse) and Goods issue (When goods are going out of warehouse) are material movements and for that we create document in SAP.  
+-> We go to  transaction MMBE (Stock Overview) and check what is the stock quantity of that material in our storage.
+-> MIGO( Goods movements) and here it will be goods receipt.
+
+Customer Creation:
+-----------------
+Transactions connected to Customer:
+-----------------------------------
+-> XD01 - Customer Create
+-> XD02 - Customer Change
+-> XD03 - Customer Display -> system helps and pre-fills the last created customer
+
+-> In creation of material so decide what should be the name of material and we maintain that as a unique one but where in case of creation of customer system will assign the next
+sequential number of the customer.
+
+
+Order-to-cash (O2C) process:
+---------------------------
+-> It is one of the most generic sales business processes and it is used by most of the companies.
+-> Officially Order-to-cash is an integration point between Finance(FI) and Sales and Distribution(SD).
+
+Material Movements:
+-------------------
+Goods receipt -> When goods are coming to warehouse
+Goods issue   -> When goods are going out of warehouse
+ 
+Pre Sale Activities:
+---------------------
+-> Inquiry :- It is something like the question to the company, if they are able to provide us the some goods and what is the price. Based on this Quotation will be done.
+-> Quotation :- It is much more like a detailed document and there we have information when the goods will be shipped,how the goods will be shipped and all detail condition of that
+one shipping of goods. Based on Quotation sales order is created.
+
+Process:-
+----------
+Inquiry -> Quotation -> Sales Order -> Delivery -> Billing Document    (So at the delivery stage Goods issue will takes place)
+----PreSales--------Order Processing----Shipping------ Billing/Invoice-------
+ -> This aboev process is also called as Sales and Distribution process
+ 
+Inquiry:-
+--------
+Transactions connected to Inquiry:
+----------------------------------
+-> VA11 - Inquiry Create
+-> VA12 - Inquiry Change
+-> VA13 - Inquiry Display
+
+Sold to party :- Sold to party is who will pay for the goods we order
+Ship to party :- Where the goods will be sent to
+-> We can use In completion log if we want to check whether all the details in document are completely entered or not
+
+Quotation:-
+----------
+Transactions connected to Quotation:
+----------------------------------
+-> VA21 - Quotation Create
+-> VA22 - Quotation Change
+-> VA23 - Quotation Display
+
+-> Here the Quotation document is created based on reference i.e from the Inquiry
+-> Basically the customer sent the Inquiry doesnt see the price. And the first time when he sees this price is at the time of Quotation.
+
+Sales order:
+-----------
+Transactions connected to Sales:
+--------------------------------
+-> VA01 - Sales Order Create
+-> VA02 - Sales Order Change
+-> VA03 - Sales Order Display
+
+-> So the Quotation is sent to customer either through email or other. Based on this Quotation sales order is placed.
+
+Outbound Delivery:
+------------------
+-> Picked Quantity :- This means someone took goods from the warehouse.It has moved from the warehouse location.
+
+Goods issue:
+---------------
+-> So we use the Outbound delivery number and use that for Goods issue. Finally we check whether the stock has been issued and count of stock has been decreased or not using 
+/nMMBE command (Stock Overview)
+
+Billing / Invoice:
+------------------
+-> This is the final part of O2C process.
+Transactions connected to Billing:
+----------------------------------
+-> VF01 - Billing Create
+-> VF02 - Billing Change
+-> VF03 - Billing Display
+
+-> The important thing here is we create billing document with reference to delivery document number.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
