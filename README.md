@@ -1,2 +1,2 @@
 # SAP
-All the files and projects related to SAP can be referred here
+All the files and projects related to SAP Data sphere can be referred here
